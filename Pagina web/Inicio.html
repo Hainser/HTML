@@ -6,11 +6,14 @@
     <title> CYBER CAFE LEVEL 99 </title>
 
  <style>
- .Enlaces{ 
+ .Footer{ 
   text-align: center;
   font-size: 1.5em ;
+
+  box-sizing: border-box;
   background-color: rgb(70, 14, 147);
   color: white;
+  
  }
  a{
      text-decoration: none;
@@ -19,9 +22,26 @@
  }
 
  body{
+ margin-top: 0;
+ margin-left: 0;
+ margin-right: 0;
  background-color: azure;
 
  }
+ .Header{
+      width: 100%;
+      margin: 0;
+      box-sizing: border-box; /* evita que el padding y el borde hagan la caja más ancha */
+      background-color:rgb(87, 42, 165);
+ }
+
+ .Titulo{
+      text-align: center;
+      background-color: aquamarine;
+      width: 100%;
+      height: 30%;
+ }
+
  </style>
 </head>
 
@@ -32,12 +52,12 @@
         <br>
         <br>
      </marquee>
-    <h1 align = center>CYBER CAFE LEVEL 99</h1>
+    <h1 class="Titulo">CYBER CAFE LEVEL 99</h1>
     <br>
     <br>
     </div>
     <p align = center  >
-      <font size = 4> Somos un CyberCafe Gaming que ofrece diferentes	salas con PCs de alto rendimiento y snacks y bebidas.</font>
+      <font size = 5> Somos un CyberCafe Gaming que ofrece diferentes	salas con PCs de alto rendimiento y snacks y bebidas.</font>
     </p>
     <h1 align = center> PRECIOS </h1>
     <br>
@@ -84,9 +104,9 @@
 
     
      <div class="Footer">
-      <p>Enlaces para ver las salas y la comida </p>
+      <p>Enlaces para ver las salas y la comida</p>
            
-      <a href="Salas.html"> Salas</a>      <a href="Cyber1.html"> Comida </a>
+      <a href="Salas.html"> Salas || </a>      <a href="Cyber1.html"> Comida </a>
 
      </div>
 
